@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Employee Details</title>
+    
+  
+  <style type="text/css">
+    body{
+      background-color:#f3e6ff; 
+
+    }
+    
+    .one {
+        width: 40%;
+        margin: auto;
+        border-radius: 8px;
+        margin-top: 18px;
+        padding-bottom:25px;
+        background-color: white;
+    }
+   
+   
+    .input1{
+          margin: 15px 20px 20px 20px;
+    
+    border-width:0px 0px 1px 0px;
+    }
+    .input1:focus{
+    
+    outline :none;
+    outline-width: 0px 0px 1px 0px;
+    }
+     .input1:hover{
+      border-bottom: 1px solid #9614c2;
+     }
+    .label1{
+     display: block;
+    padding-top: 25px;
+    padding-left: 26px;
+    }
+    .radiobox{
+     margin: 10px 0px 0px 20px;
+    }
+    .label2{
+      padding-left: 9px;
+    }
+      .bn49 {
+     
+  border: 0;
+  text-align: center;
+  display: inline-block;
+  padding: 14px;
+  width: 100px;
+  margin: 7px;
+  color: #ffffff;
+  background-color: #9614c2;
+  border-radius: 8px;
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left:450px;
+}
+.head-detail{
+    margin:18px; 
+    
+}
+
+
+ @media only screen and (max-width: 900px) and (min-width: 500px){
+      .one{
+        width: 70%;
+        margin: auto;
+        border-radius: 8px;
+        margin-top: 15px;
+        padding-bottom:15px;
+        background-color: white;
+      }
+      .bn49{
+        border: 0;
+  text-align: center;
+  display: inline-block;
+  padding: 14px;
+  width: 80px;
+  margin: 7px;
+  color: #ffffff;
+  background-color: #9614c2;
+  border-radius: 8px;
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 8px;
+ 
+      }
+    }
+    @media only screen and (max-width: 500px) {
+      .one{
+        width: 90%;
+        margin: auto;
+        border-radius: 8px;
+        margin-top: 15px;
+        padding-bottom:15px;
+        background-color:white;
+      }
+      .bn49{
+        border: 0;
+  text-align: center;
+  display: inline-block;
+  padding: 14px;
+  width: 80px;
+  margin: 7px;
+  color: #ffffff;
+  background-color: #9614c2;
+  border-radius: 8px;
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-left: 60px;
+      }
+    }
+
+    .input3{
+      border-width: 0px 0px 1px 0px;
+    }
+    .input3:focus{
+    
+    outline :none;
+    outline-width: 0px 0px 1px 0px;
+    }
+  </style>
+  </head>
+  <body>
+    <div> 
+      <div class="one" style="border-top: 15px solid rgb(130, 3, 250);">
+        <p><h1 class="head-detail">Employee Details</h1></p>
+        <p class="head-detail">United Well-being Foundation</p>
+      <hr>
+      </div>
+      <div class="one">
+        <label class="label1">Name</label><br>
+        <input class="input1" type="text" name="name" placeholder="Your answer" onfocus="focusfunction()">
+      </div>
+
+
+      <div class="one">
+        <label class="label1">E-mail ID</label><br>
+        <input class="input1" type="email" name="name" placeholder="Your answer">
+      </div>
+
+
+      <div class="one">
+        <label class="label1">Phone No.</label><br>
+        <input class="input1" type="text" name="name" placeholder="Your answer" required>
+      </div>
+
+
+      <div class="one">
+        <label class="label1">Whatsapp No.</label><br>
+        <input class="input1" type="text" name="name" placeholder="Your answer">
+      </div>
+
+
+      <div class="one">
+        <label class="label1">Date Of Birth</label><br>
+        <input class="input1" type="date" name="name" placeholder="Your answer">
+      </div>
+
+
+      <div class="one">
+        <label class="label1">Education</label><br>
+        <div class="radiobox">
+          <input type="radio" name="radio" placeholder="Your answer"><label class="label2">11th</label>
+        </div>
+        <div class="radiobox">
+          <input type="radio" name="radio" placeholder="Your answer"><label class="label2">12th</label>
+        </div>
+        <div class="radiobox">
+          <input type="radio" name="radio" placeholder="Your answer"><label class="label2">Graduation</label>
+        </div >
+        <div class="radiobox">
+          <input type="radio" name="radio" placeholder="Your answer"><label class="label2">Post-Graduation</label>
+        </div >
+        <div class="radiobox">
+          <input type="radio" name="radio" placeholder="Your answer"><label class="label2">PHD</label>
+        </div>
+        <div class="radiobox">
+          <input type="radio" name="radio" placeholder="Your answer"><label " class="label2">Other:</label><input class="input3" type="text" name="">
+        </div>
+
+      
+      </div>
+
+        <div class="one">
+        <label class="label1">Your Department(For which you are selected)
+*</label><br>
+        <div class="radiobox">
+          <input type="radio" name="name" placeholder="Your answer"><label class="label2">HR (3 Months)</label>
+        </div>
+        <div class="radiobox">
+          <input type="radio" name="name" placeholder="Your answer"><label class="label2">Forensic Science Trainer (3 Months)</label>
+        </div>
+        <div class="radiobox">
+          <input type="radio" name="name" placeholder="Your answer"><label class="label2">Psychology Research Trainee (3 Months)</label>
+        </div >
+        <div class="radiobox">
+          <input type="radio" name="name" placeholder="Your answer"><label class="label2">Psychologist (6 Months)</label>
+        </div >
+        <div class="radiobox">
+          <input type="radio" name="name" placeholder="Your answer"><label class="label2">Front-end Developer(3 Months)</label>
+        </div>
+        <div class="radiobox">
+          <input type="radio" name="name" placeholder="Your answer"><label class="label2">Back-end Developer(3 Months)</label>
+        </div>
+        <div class="radiobox">
+          <input type="radio" name="name" placeholder="Your answer"><label class="label2">Full Stack Developer(3 Months)</label>
+        </div>
+        <div class="radiobox">
+          <input type="radio" name="name" placeholder="Your answer"><label class="label2">Campus Ambassador(3 Months)</label>
+        </div>
+        <div class="radiobox">
+          <input type="radio" name="name" placeholder="Your answer"><label class="label2">Content Writer(3 Months)</label>
+        </div>
+        <div class="radiobox">
+          <input type="radio" name="name" placeholder="Your answer"><label class="label2">Graphic Designer(3 Months)</label>
+        </div>
+        <div class="radiobox">
+          <input type="radio" name="name" placeholder="Your answer"><label class="label2">Video Editor/Making(3 Months)</label>
+        </div>
+        <div class="radiobox">
+          <input type="radio" name="name" placeholder="Your answer"><label class="label2">Social Media Marketing(3 Months)</label>
+        </div>
+        <div class="radiobox">
+          <input type="radio" name="name" placeholder="Your answer"><label class="label2">Market Research(3 Months)</label>
+        </div>
+        <div class="radiobox">
+          <input type="radio" name="name" placeholder="Your answer"><label class="label2">UI/UX Designer(3 Months)</label>
+        </div>
+        <div class="radiobox">
+          <input type="radio" name="name" placeholder="Your answer"><label class="label2">Instagram Influencer (3 Months)</label>
+        </div>
+
+        
+    </div>
+ <button class="bn49" type="submit">Submit</button>
+  <p style="text-align: center;"><small>Never submit passwords through Google Forms.</small></p>
+   <p style="text-align: center; font-weight: 3px;"><small>This content is neither created nor endorsed by Google. Report Abuse - Terms of Service - Privacy Policy</small>
+   </p>
+   <p style="text-align: center; font-weight:20px;"><a><large>Google Forms</large></a></p>
+
+
+
+
+
+
+
+  </body>
+</html>
